@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: rgb(255, 255, 255);
+    color:rgb(12, 2, 2)
+}
+.container {
+    max-width: auto;
+    margin: 50px auto;
+    background: rgb(202, 197, 255);
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(1, 1, 1, 0.1);
+    padding: 20px;
+  }
+
+.item-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.item-form label {
+    margin-bottom: 5px;
+}
+.item-form input, .item-form button {
+    margin-bottom: 10px;
+}
+.inventory-list {
+    margin-top: 20px;
+}
+.inventory-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+}
+.inventory-item button {
+    margin-left: 10px;
+}
