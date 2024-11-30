@@ -37,3 +37,9 @@ body {
 .inventory-item button {
     margin-left: 10px;
 }
+h1{
+    box-align: center;
+}
+img {
+    border-radius: 20%;
+  }
